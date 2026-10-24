@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhavya Jangid — Full-Stack Developer &amp; AI Systems Builder</title>
+  <meta name="description" content="Portfolio of Bhavya Jangid (yoursexybhavya): Full-Stack Developer, AI Systems Explorer, and creator of the UNIPATH 3D Campus Digital Twin and Smriti Sathi Cognitive Care Platform.">
+
+  <!-- Typography: Archivo from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Site Navigation -->
+  <header class="site-header" id="header">
+    <div class="site-wrapper">
+      <div class="header-inner">
+        <a href="#hero" class="brand-mark" aria-label="Bhavya Jangid Home">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span>Bhavya Jangid</span>
+        </a>
+
+        <nav aria-label="Main Navigation">
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#work" class="nav-link">Builds</a></li>
+            <li><a href="#workbench" class="nav-link">Workbench</a></li>
+            <li><a href="#architecture" class="nav-link">Spatial Twin</a></li>
+            <li><a href="#stack" class="nav-link">Stack</a></li>
+            <li><a href="#academic" class="nav-link">Track</a></li>
+            <li><a href="#homeland" class="nav-link">Origin</a></li>
+            <li><a href="#contact" class="nav-cta">Connect</a></li>
+          </ul>
+        </nav>
+
+        <button type="button" class="mobile-nav-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          Menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-wrapper">
+
+    <!-- Hero Section -->
+    <section class="section-block hero-section" id="hero">
+      <div class="content-container">
+        <div class="hero-grid">
+          <div class="hero-text-block">
+            <h1 class="hero-title">Bhavya Jangid</h1>
+            <p class="hero-role-line">Full-Stack Developer &amp; AI Systems Explorer</p>
+            <p class="hero-lead-text">
+              Computer science undergraduate at JIET Jodhpur engineering spatial 3D digital twins, offline-first cognitive care systems, and distributed web platforms. Currently shipping systems in Jodhpur (UTC+05:30) &bull; <span id="istClock">13:30 IST</span>.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#work" class="btn-primary">Explore Engineering Builds</a>
+              <a href="https://github.com/yoursexybhavya" target="_blank" rel="noopener noreferrer" class="btn-secondary">GitHub Profile</a>
+            </div>
+          </div>
+
+          <div class="hero-visual-frame">
+            <video class="hero-video-loop" autoplay muted loop playsinline preload="metadata" poster="assets/celestial-loop-poster.jpg" aria-hidden="true">
+              <source src="assets/celestial-loop.webm" type="video/webm">
+            </video>
+            <div class="hero-visual-caption">
+              <span>Celestial Time-Lapse</span>
+              <span>Solarember Observatory</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Engineering Exhibits -->
+    <section class="section-block" id="work">
+      <div class="content-container">
+        <h2>Featured Engineering Builds</h2>
+        <p class="lead-statement">
+          Production-grade systems verified by exhaustive automated test suites, built for real students, caregivers, and clinicians.
+        </p>
+
+        <!-- Exhibit 1: UNIPATH 3D Digital Twin -->
+        <article class="exhibit-card reveal-item">
+          <div class="exhibit-grid">
+            <div class="exhibit-media-wrap">
+              <img src="assets/campus_isometric.png" alt="JIET Jodhpur 3D Digital Twin Isometric Architecture Render" class="exhibit-image" loading="lazy" decoding="async">
+            </div>
+
+            <div class="exhibit-content">
+              <div class="exhibit-badge-row">
+                <span class="tech-tag tech-tag-highlight">Flagship Digital Twin</span>
+                <span class="tech-tag">Blender 5.2</span>
+                <span class="tech-tag">React Three Fiber</span>
+                <span class="tech-tag">Zustand</span>
+                <span class="tech-tag">SQL.js WASM</span>
+              </div>
+
+              <h3>UNIPATH: JIET 3D Digital Twin</h3>
+              <p>
+                Interactive 3D campus twin and turn-by-turn indoor wayfinding system for JIET Jodhpur. Procedurally modeled in Blender with 61 rooms and 4 hubs, featuring real-time topological routing, helical staircase elevation interpolation, and live peer radar.
+              </p>
+
+              <div class="exhibit-metrics-grid">
+                <div class="metric-item">
+                  <span class="metric-number">61 + 4</span>
+                  <span class="metric-label">Rooms &amp; Arterial Hubs</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-number">3,721</span>
+                  <span class="metric-label">Collision-Free Paths</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-number">359 / 359</span>
+                  <span class="metric-label">Passing Vitest Checks</span>
+                </div>
+              </div>
+
+              <p>
+                Built in collaboration with The 4 Musketeers team at JIET Jodhpur.
+              </p>
+
+              <div class="exhibit-actions">
+                <a href="https://campusroomfinder.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-primary">Launch Live 3D Twin</a>
+                <a href="https://github.com/yoursexybhavya/campus-room-finder" target="_blank" rel="noopener noreferrer" class="btn-secondary">Inspect Source Code</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Exhibit 2: Smriti Sathi -->
+        <article class="exhibit-card reveal-item">
+          <div class="exhibit-grid">
+            <div class="exhibit-media-wrap">
+              <img src="assets/campus_topdown.png" alt="Smriti Sathi Architectural Blueprint and System Planning" class="exhibit-image" loading="lazy" decoding="async">
+            </div>
+
+            <div class="exhibit-content">
+              <div class="exhibit-badge-row">
+                <span class="tech-tag tech-tag-highlight">SIH 2026 SIH26003</span>
+                <span class="tech-tag">Bhashini AI</span>
+                <span class="tech-tag">AES-256 Vault</span>
+                <span class="tech-tag">BLE P2P Mesh</span>
+                <span class="tech-tag">WCAG AAA</span>
+              </div>
+
+              <h3>Smriti Sathi: Cognitive Care Platform</h3>
+              <p>
+                Offline-first multilingual cognitive care and dementia companion engineered for elders in North East India. Features Bhashini neural speech synthesis, 3-stage store-and-forward mesh synchronization, Scandinavian senior accessibility standards, and Clinical Stability Performance Index tracking.
+              </p>
+
+              <div class="exhibit-metrics-grid">
+                <div class="metric-item">
+                  <span class="metric-number">5</span>
+                  <span class="metric-label">Regional Languages</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-number">285 / 285</span>
+                  <span class="metric-label">E2E Tests in under 1s</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-number">v2.9.1</span>
+                  <span class="metric-label">Native Android APK</span>
+                </div>
+              </div>
+
+              <div class="exhibit-actions">
+                <a href="https://smriti-sathi.onrender.com" target="_blank" rel="noopener noreferrer" class="btn-primary">Open Web Sandbox</a>
+                <a href="https://github.com/yoursexybhavya/smriti-sathi/releases/download/v2.9.1/SmritiSathi-v2.9.1.apk" class="btn-secondary">Download Android APK</a>
+                <a href="https://github.com/yoursexybhavya/smriti-sathi" target="_blank" rel="noopener noreferrer" class="btn-secondary">Inspect Repository</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Interactive Systems Workbench (The Live Thing) -->
+    <section class="section-block" id="workbench">
+      <div class="content-container">
+        <h2>Interactive Systems Workbench</h2>
+        <p class="lead-statement">
+          Operate functional simulations of the spatial topological routing engine, clinical dementia progression algorithms, and the system terminal.
+        </p>
+
+        <div class="workbench-container reveal-item">
+          <div class="workbench-nav-tabs" role="tablist">
+            <button type="button" class="tab-button is-active" id="tabBtnWayfinder" role="tab" aria-selected="true" aria-controls="panelWayfinder">
+              Topological Campus Wayfinder
+            </button>
+            <button type="button" class="tab-button" id="tabBtnSpi" role="tab" aria-selected="false" aria-controls="panelSpi">
+              Clinical Cognitive SPI Engine
+            </button>
+            <button type="button" class="tab-button" id="tabBtnTerminal" role="tab" aria-selected="false" aria-controls="panelTerminal">
+              Solar Ember Shell Terminal
+            </button>
+          </div>
+
+          <!-- Workbench Panel 1: Wayfinder -->
+          <div class="workbench-panel is-active" id="panelWayfinder" role="tabpanel" aria-labelledby="tabBtnWayfinder">
+            <div class="wayfinder-layout">
+              <div class="wayfinder-controls">
+                <h3>Route Parameter Controls</h3>
+                <div class="field-group">
+                  <label for="selectOrigin" class="field-label">Departure Location</label>
+                  <select id="selectOrigin" class="control-select">
+                    <option value="entrance">Main Campus Gate (Ground Floor)</option>
+                    <option value="idea_lab">Idea Lab &amp; Maker Space (Ground Floor)</option>
+                    <option value="amphitheater">Amphitheater Courtyard (Ground Floor)</option>
+                    <option value="drawing_hall">Engineering Drawing Hall (Ground Floor)</option>
+                  </select>
+                </div>
+
+                <div class="field-group">
+                  <label for="selectDest" class="field-label">Target Destination</label>
+                  <select id="selectDest" class="control-select">
+                    <option value="library">Central Library F-36 (First Floor)</option>
+                    <option value="hod_office">HOD AI Research Suite (First Floor)</option>
+                    <option value="computer_lab">Computer Science Center Lab 4 (First Floor)</option>
+                    <option value="lecture_hall">Lecture Theater 9 (Ground Floor)</option>
+                  </select>
+                </div>
+
+                <div class="routing-summary-box">
+                  <div class="summary-stat-row">
+                    <span>Computed Path Distance</span>
+                    <span id="routeDistance">68.4 meters</span>
+                  </div>
+                  <div class="summary-stat-row">
+                    <span>Estimated Transit Duration</span>
+                    <span id="routeTime">54 seconds</span>
+                  </div>
+                  <div class="summary-stat-row">
+                    <span>Floor Level Transition</span>
+                    <span id="routeStairs">Twin Library Helical Staircase</span>
+                  </div>
+
+                  <ul class="turn-step-list" id="turnStepList">
+                    <li class="turn-step-item">Depart departure node along the covered veranda centerline</li>
+                    <li class="turn-step-item">Traverse southern colonnade corridor toward library foyer</li>
+                    <li class="turn-step-item">Ascend helical spiral staircase to first floor landing</li>
+                    <li class="turn-step-item">Arrive at destination doorway with zero corridor collisions</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="wayfinder-map-canvas-wrap">
+                <svg viewBox="0 0 540 380" class="wayfinder-svg" id="wayfinderSvg" aria-label="Visual Campus Topological Route Graph">
+                  <!-- Ground Quadrangle Base -->
+                  <rect x="30" y="30" width="480" height="320" rx="12" fill="#14080a" />
+                  
+                  <!-- Central Courtyard Lawn -->
+                  <rect x="150" y="110" width="240" height="160" rx="8" fill="#1e1114" />
+                  <text x="270" y="195" fill="#a68c85" font-size="13" text-anchor="middle" font-family="Archivo, sans-serif">Central Quadrangle Lawn</text>
+
+                  <!-- Veranda Centerline Walkway Perimeter -->
+                  <rect x="130" y="90" width="280" height="200" rx="6" fill="none" stroke="#2b1a1e" stroke-width="8" />
+
+                  <!-- Campus Room Enclosures -->
+                  <rect x="40" y="40" width="100" height="40" rx="4" fill="#251619" />
+                  <text x="90" y="65" fill="#fff7ed" font-size="11" text-anchor="middle" font-family="Archivo, sans-serif">Main Gate</text>
+
+                  <rect x="160" y="40" width="100" height="40" rx="4" fill="#251619" />
+                  <text x="210" y="65" fill="#fff7ed" font-size="11" text-anchor="middle" font-family="Archivo, sans-serif">Idea Lab</text>
+
+                  <rect x="280" y="40" width="100" height="40" rx="4" fill="#251619" />
+                  <text x="330" y="65" fill="#fff7ed" font-size="11" text-anchor="middle" font-family="Archivo, sans-serif">LT-9</text>
+
+                  <rect x="400" y="40" width="100" height="40" rx="4" fill="#251619" />
+                  <text x="450" y="65" fill="#fff7ed" font-size="11" text-anchor="middle" font-family="Archivo, sans-serif">Central Library</text>
+
+                  <rect x="40" y="300" width="120" height="40" rx="4" fill="#251619" />
+                  <text x="100" y="325" fill="#fff7ed" font-size="11" text-anchor="middle" font-family="Archivo, sans-serif">Drawing Hall</text>
+
+                  <rect x="400" y="300" width="100" height="40" rx="4" fill="#251619" />
+                  <text x="450" y="325" fill="#fff7ed" font-size="11" text-anchor="middle" font-family="Archivo, sans-serif">AI Suite</text>
+
+                  <!-- Dynamic Waypoint Path Ribbon -->
+                  <path id="svgRibbonPath" d="M 90 80 L 130 90 L 130 190 L 270 190 L 410 190 L 450 80" fill="none" stroke="#f4641b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+                  <!-- Origin Marker -->
+                  <circle id="svgOriginDot" cx="90" cy="80" r="8" fill="#22c55e" />
+
+                  <!-- Destination Marker -->
+                  <circle id="svgDestDot" cx="450" cy="80" r="8" fill="#f9a41a" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Workbench Panel 2: SPI Simulator -->
+          <div class="workbench-panel" id="panelSpi" role="tabpanel" aria-labelledby="tabBtnSpi">
+            <div class="spi-layout">
+              <div class="spi-sliders-column">
+                <h3>Cognitive Evaluation Variables</h3>
+                
+                <div class="range-slider-wrap">
+                  <div class="slider-header">
+                    <span class="slider-name">Task Accuracy Rating</span>
+                    <span class="slider-readout" id="readoutAccuracy">85%</span>
+                  </div>
+                  <input type="range" min="20" max="100" value="85" class="custom-range" id="sliderAccuracy" aria-label="Task Accuracy Rating">
+                </div>
+
+                <div class="range-slider-wrap">
+                  <div class="slider-header">
+                    <span class="slider-name">Response Latency</span>
+                    <span class="slider-readout" id="readoutLatency">1,400 ms</span>
+                  </div>
+                  <input type="range" min="400" max="4500" value="1400" step="50" class="custom-range" id="sliderLatency" aria-label="Response Latency in Milliseconds">
+                </div>
+
+                <div class="range-slider-wrap">
+                  <div class="slider-header">
+                    <span class="slider-name">Caregiver Voice Familiarity</span>
+                    <span class="slider-readout" id="readoutVoice">Level 4 (Daughter)</span>
+                  </div>
+                  <input type="range" min="1" max="5" value="4" class="custom-range" id="sliderVoice" aria-label="Caregiver Voice Familiarity Level">
+                </div>
+
+                <div class="scaffold-demo-box">
+                  <button type="button" class="scaffold-button" id="triggerScaffoldBtn">
+                    Trigger 3-Second Errorless Scaffolding Protocol
+                  </button>
+                  <p id="scaffoldStatusText" style="margin-top: 0.75rem; margin-bottom: 0; font-size: 0.875rem;">
+                    Normal interaction state active.
+                  </p>
+                </div>
+              </div>
+
+              <div class="spi-verdict-box">
+                <div class="verdict-header-row">
+                  <span class="field-label">Stability Performance Index</span>
+                  <span class="verdict-badge status-stable" id="verdictBadge">STABLE TRAJECTORY</span>
+                </div>
+
+                <div class="spi-score-display" id="spiScoreDisplay">82.4</div>
+
+                <p id="spiClinicalExplanation">
+                  Cognitive response parameters indicate consistent recall latency within normal therapeutic tolerance. 14-session median maintains positive stability.
+                </p>
+
+                <div class="summary-stat-row">
+                  <span>Caregiver Automated Dispatch</span>
+                  <span id="dispatchStatus">Routine Weekly Digest</span>
+                </div>
+                <div class="summary-stat-row">
+                  <span>ASHA Worker Primary Health Sync</span>
+                  <span id="syncFrequency">Normal 14-day cycle</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Workbench Panel 3: Terminal Console -->
+          <div class="workbench-panel" id="panelTerminal" role="tabpanel" aria-labelledby="tabBtnTerminal">
+            <div class="terminal-window">
+              <div class="terminal-titlebar">
+                <div class="window-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <span>yoursexybhavya@solarember : ~ (-zsh)</span>
+                <span>Session Active</span>
+              </div>
+
+              <div class="terminal-body" id="terminalBody">
+                <div class="terminal-output" id="terminalOutput">Welcome to Bhavya Jangid Systems Shell [v3.8.2]
+Type 'help' to inspect available system commands or click a prompt below.</div>
+
+                <div class="terminal-prompt-line">
+                  <span class="prompt-prefix">bhavya@solarember:~$</span>
+                  <input type="text" class="terminal-input" id="terminalInput" autocomplete="off" spellcheck="false" aria-label="Terminal Command Prompt">
+                </div>
+              </div>
+
+              <div class="quick-commands-bar">
+                <button type="button" class="quick-cmd-btn" data-cmd="whoami">whoami</button>
+                <button type="button" class="quick-cmd-btn" data-cmd="repos">repos</button>
+                <button type="button" class="quick-cmd-btn" data-cmd="skills">skills</button>
+                <button type="button" class="quick-cmd-btn" data-cmd="blaze">cat blaze</button>
+                <button type="button" class="quick-cmd-btn" data-cmd="tests">tests</button>
+                <button type="button" class="quick-cmd-btn" data-cmd="clear">clear</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Spatial Architecture 3D Gallery -->
+    <section class="section-block" id="architecture">
+      <div class="content-container">
+        <h2>Spatial Architecture &amp; Twin Systems</h2>
+        <p class="lead-statement">
+          High-fidelity Blender 5.2 Cycles architectural renders documenting the topological and spatial recreation of JIET Jodhpur.
+        </p>
+
+        <div class="architectural-showcase">
+          <div class="gallery-feature-panel reveal-item">
+            <img src="assets/campus_isometric.png" alt="Full Two-Story Quadrangle and Central Lawn" class="gallery-feature-image" loading="lazy" decoding="async">
+            <div class="gallery-feature-caption">
+              <div class="gallery-title">3D Quadrangle Master Twin</div>
+              <p>Two-story academic complex with sandstone colonnades, procedural quadrangle gardens, and central amphitheater.</p>
+            </div>
+          </div>
+
+          <div class="gallery-sub-grid">
+            <div class="gallery-sub-item reveal-item">
+              <img src="assets/campus_library_stairs.png" alt="Twin Central Library Helical Staircase" class="gallery-sub-image" loading="lazy" decoding="async">
+              <div class="gallery-caption">
+                <div class="gallery-title">Twin Library Helical Stairs</div>
+                <p>Porthole landings and elevated bridge to Central Library.</p>
+              </div>
+            </div>
+
+            <div class="gallery-sub-item reveal-item">
+              <img src="assets/campus_courtyard.png" alt="Amphitheater Courtyard and Stage" class="gallery-sub-image" loading="lazy" decoding="async">
+              <div class="gallery-caption">
+                <div class="gallery-title">Central Amphitheater</div>
+                <p>Cross-walkway axes and open amphitheater seating.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Stack Matrix -->
+    <section class="section-block" id="stack">
+      <div class="content-container">
+        <h2>Technical Arsenal &amp; Systems Matrix</h2>
+        <p class="lead-statement">
+          Applied technologies and computational tools deployed across production projects and research workflows.
+        </p>
+
+        <div class="stack-grid">
+          <div class="stack-category-card reveal-item">
+            <h3>Programming Languages</h3>
+            <p>Core development and systems programming languages.</p>
+            <div class="stack-pills-wrap">
+              <span class="stack-pill">TypeScript</span>
+              <span class="stack-pill">Python</span>
+              <span class="stack-pill">C</span>
+              <span class="stack-pill">C++</span>
+              <span class="stack-pill">Java</span>
+              <span class="stack-pill">Rust</span>
+              <span class="stack-pill">Go</span>
+              <span class="stack-pill">SQL</span>
+            </div>
+          </div>
+
+          <div class="stack-category-card reveal-item">
+            <h3>Frontend &amp; Spatial Graphics</h3>
+            <p>Modern component frameworks and real-time WebGL rendering.</p>
+            <div class="stack-pills-wrap">
+              <span class="stack-pill">React 19</span>
+              <span class="stack-pill">Next.js</span>
+              <span class="stack-pill">Three.js</span>
+              <span class="stack-pill">React Three Fiber</span>
+              <span class="stack-pill">Tailwind CSS</span>
+              <span class="stack-pill">Blender 5.2</span>
+              <span class="stack-pill">Leaflet.js</span>
+            </div>
+          </div>
+
+          <div class="stack-category-card reveal-item">
+            <h3>Backend &amp; Distributed Systems</h3>
+            <p>API services, database systems, and state storage engines.</p>
+            <div class="stack-pills-wrap">
+              <span class="stack-pill">Node.js</span>
+              <span class="stack-pill">FastAPI</span>
+              <span class="stack-pill">PostgreSQL</span>
+              <span class="stack-pill">MongoDB</span>
+              <span class="stack-pill">SQL.js WASM</span>
+              <span class="stack-pill">BigQuery</span>
+              <span class="stack-pill">Socket.io</span>
+            </div>
+          </div>
+
+          <div class="stack-category-card reveal-item">
+            <h3>AI, Cognitive &amp; Machine Learning</h3>
+            <p>Speech models, vector search, and analytical pipelines.</p>
+            <div class="stack-pills-wrap">
+              <span class="stack-pill">PyTorch</span>
+              <span class="stack-pill">Bhashini AI</span>
+              <span class="stack-pill">Gemini Pro API</span>
+              <span class="stack-pill">Vector Search</span>
+              <span class="stack-pill">ARIMA Forecasting</span>
+              <span class="stack-pill">Errorless Learning</span>
+            </div>
+          </div>
+
+          <div class="stack-category-card reveal-item">
+            <h3>Mobile &amp; Local-First Architecture</h3>
+            <p>Offline resilience, local encryption, and mobile distribution.</p>
+            <div class="stack-pills-wrap">
+              <span class="stack-pill">IndexedDB Vault</span>
+              <span class="stack-pill">AES-GCM Encryption</span>
+              <span class="stack-pill">BLE GATT Mesh</span>
+              <span class="stack-pill">Android APK</span>
+              <span class="stack-pill">PWA Shell</span>
+              <span class="stack-pill">Auto-OTA Updater</span>
+            </div>
+          </div>
+
+          <div class="stack-category-card reveal-item">
+            <h3>Testing &amp; Infrastructure</h3>
+            <p>Automated verification, deployment, and cloud infrastructure.</p>
+            <div class="stack-pills-wrap">
+              <span class="stack-pill">Vitest</span>
+              <span class="stack-pill">Docker</span>
+              <span class="stack-pill">Git</span>
+              <span class="stack-pill">macOS &amp; Linux CLI</span>
+              <span class="stack-pill">Vercel</span>
+              <span class="stack-pill">Render</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Track & Verification Scoreboard -->
+    <section class="section-block" id="academic">
+      <div class="content-container">
+        <h2>Academic Track &amp; Research Verification</h2>
+        <p class="lead-statement">
+          Formal engineering foundation combined with verifiable automated testing metrics.
+        </p>
+
+        <div class="academic-layout">
+          <div class="academic-details-card reveal-item">
+            <h3>Academic Background</h3>
+            <p>
+              Bachelor of Technology in Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning at JIET Group of Institutions, Jodhpur (2026 to 2030).
+            </p>
+            <p>
+              Primary engineering directives focus on resilient systems architecture, computational geometry for indoor localization, and accessible AI for elderly cognitive rehabilitation.
+            </p>
+
+            <div style="margin-top: 1.5rem;">
+              <span class="tech-tag tech-tag-highlight">Smart India Hackathon</span>
+              <span class="tech-tag">National Innovation Team</span>
+              <span class="tech-tag">Project SIH26003</span>
+            </div>
+          </div>
+
+          <div class="verification-scoreboard reveal-item">
+            <h3>Automated Verification Scoreboard</h3>
+            
+            <div class="scoreboard-row">
+              <span>UNIPATH Campus Twin Checks</span>
+              <span class="score-pass">359 / 359 Passing</span>
+            </div>
+            <div class="scoreboard-row">
+              <span>Smriti Sathi E2E Suites</span>
+              <span class="score-pass">285 / 285 Passing</span>
+            </div>
+            <div class="scoreboard-row">
+              <span>Collision-Free Graph Pairs</span>
+              <span class="score-pass">3,721 Verified</span>
+            </div>
+            <div class="scoreboard-row">
+              <span>Senior Accessibility Contrast</span>
+              <span class="score-pass">WCAG AAA Certified</span>
+            </div>
+            <div class="scoreboard-row">
+              <span>Total Automated Checks</span>
+              <span class="score-pass">644 Passing Tests</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Heritage & Homeland -->
+    <section class="section-block" id="homeland">
+      <div class="content-container">
+        <h2>Heritage &amp; Homeland</h2>
+        <p class="lead-statement">
+          Rooted in the historical fortress city of Jodhpur, Rajasthan, where enduring stone engineering informs resilient software systems.
+        </p>
+
+        <div class="heritage-grid">
+          <div class="heritage-photo-frame reveal-item">
+            <img src="assets/jodhpur-mehrangarh-jpg.jpg" alt="Mehrangarh Fort Sandstone Architecture in Jodhpur Rajasthan" class="heritage-photo" loading="lazy" decoding="async">
+          </div>
+
+          <div class="reveal-item">
+            <h3>The Sun City Architecture</h3>
+            <p>
+              Constructed above sheer rock cliffs, Mehrangarh Fort stands as a testament to structural permanence and thoughtful geometry in Jodhpur. The intricate stone lattices, courtyards, and layered defensive pathways parallel the discipline required in complex software architecture.
+            </p>
+            <p>
+              Living and engineering in Rajasthan instills a foundational appreciation for resource-efficient computing: building systems that run flawlessly with zero connectivity, minimal power, and maximum durability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Direct Transmissions -->
+    <section class="section-block contact-section" id="contact">
+      <div class="content-container">
+        <div class="contact-card reveal-item">
+          <h2>Direct Contact</h2>
+          <p class="lead-statement">
+            Available for technical collaborations, innovative engineering competitions, and open-source systems development.
+          </p>
+
+          <div class="contact-email-row">
+            <span class="email-address-display" id="emailDisplay">Krishnajangid6781@gmail.com</span>
+            <button type="button" class="copy-button" id="copyEmailBtn">Copy Email Address</button>
+          </div>
+
+          <div class="social-links-row">
+            <a href="https://github.com/yoursexybhavya" target="_blank" rel="noopener noreferrer" class="social-link-item">GitHub: @yoursexybhavya</a>
+            <a href="https://www.linkedin.com/in/bhavya-jangid-329371362/" target="_blank" rel="noopener noreferrer" class="social-link-item">LinkedIn: Bhavya Jangid</a>
+            <a href="https://www.instagram.com/yoursexybhavya/" target="_blank" rel="noopener noreferrer" class="social-link-item">Instagram: @yoursexybhavya</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="site-wrapper">
+      <div class="footer-inner">
+        <div class="footer-top-row">
+          <div class="brand-mark">
+            <span class="brand-dot" aria-hidden="true"></span>
+            <span>Bhavya Jangid &bull; Solarember Systems</span>
+          </div>
+          <div class="footer-meta">
+            Designed for National Engineering Competitions &bull; 2026
+          </div>
+        </div>
+
+        <p class="footer-credits">
+          Pictures and footage: <a href="https://commons.wikimedia.org/wiki/File:Mehrangarh_Fort_2,_Jodhpur,_Rajasthan,_India.jpg" target="_blank" rel="noopener noreferrer">Mehrangarh Fort 2, Jodhpur, Rajasthan, India</a> by Yann, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>, via Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Starry_sky_with_North_Star_circled.webm" target="_blank" rel="noopener noreferrer">Starry sky with North Star circled</a> by Thomas Bresson, <a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>, via Wikimedia Commons. 3D Architectural Renders courtesy of UNIPATH JIET Jodhpur.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

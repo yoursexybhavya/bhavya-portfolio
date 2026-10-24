@@ -1,0 +1,50 @@
+[
+ {
+  "file": "assets/jodhpur-mehrangarh-jpg.jpg",
+  "media": "image",
+  "ref": "commons:18121214",
+  "title": "Mehrangarh Fort 2, Jodhpur, Rajasthan, India",
+  "creator": "Yann ( talk )",
+  "creatorUrl": null,
+  "date": "2011",
+  "license": "CC BY-SA 4.0",
+  "licenseCode": "by-sa",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "creditRequired": true,
+  "page": "https://commons.wikimedia.org/wiki/File:Mehrangarh_Fort_2,_Jodhpur,_Rajasthan,_India.jpg",
+  "via": "Wikimedia Commons",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Mehrangarh_Fort_2%2C_Jodhpur%2C_Rajasthan%2C_India.jpg/1920px-Mehrangarh_Fort_2%2C_Jodhpur%2C_Rajasthan%2C_India.jpg",
+  "width": 1920,
+  "height": 1226,
+  "bytes": 946211,
+  "credit": "\"Mehrangarh Fort 2, Jodhpur, Rajasthan, India\" by Yann ( talk ), CC BY-SA 4.0, via Wikimedia Commons",
+  "notes": [
+   "Share-alike: an altered version (recoloured, combined with other pictures) must be shared under the same licence."
+  ],
+  "saved": "2026-10-24T08:06:49.589Z"
+ },
+ {
+  "file": "assets/celestial-loop.webm",
+  "media": "video",
+  "poster": "assets/celestial-loop-poster.jpg",
+  "ref": "commons:39141193",
+  "title": "Starry sky with North Star circled",
+  "creator": "Thomas Bresson",
+  "creatorUrl": null,
+  "date": "2012-03-21",
+  "license": "CC BY 3.0",
+  "licenseCode": "by",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "creditRequired": true,
+  "page": "https://commons.wikimedia.org/wiki/File:Starry_sky_with_North_Star_circled.webm",
+  "via": "Wikimedia Commons",
+  "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Starry_sky_with_North_Star_circled.webm/Starry_sky_with_North_Star_circled.webm.480p.vp9.webm",
+  "width": 854,
+  "height": 480,
+  "duration": 11.2,
+  "bytes": 184492,
+  "credit": "\"Starry sky with North Star circled\" by Thomas Bresson, CC BY 3.0, via Wikimedia Commons",
+  "notes": [],
+  "saved": "2026-10-24T08:07:19.912Z"
+ }
+]

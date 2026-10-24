@@ -1,0 +1,13 @@
+{
+  "name": "bhavya-jangid-portfolio",
+  "version": "1.0.0",
+  "description": "Bhavya Jangid — Full-Stack Developer & AI/ML Explorer Portfolio",
+  "type": "module",
+  "scripts": {
+    "lint": "node /Users/krishnajangid/.gemini/config/skills/design-taste-frontend/scripts/lint.mjs .",
+    "inspect": "node /Users/krishnajangid/.gemini/config/skills/design-taste-frontend/scripts/inspect.mjs index.html",
+    "test": "node test.js"
+  },
+  "author": "Bhavya Jangid <Krishnajangid6781@gmail.com>",
+  "license": "MIT"
+}
